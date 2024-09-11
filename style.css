@@ -1,0 +1,24 @@
+body{
+    margin: 10px;
+    padding: 10;
+    background-color: rgb(170, 93, 93);
+}
+.container{
+    display: flex;
+    width: 50%;
+    height: 300px;
+    gap: 5px;
+
+}
+.container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(24, 177, 169);
+    transition: all ease-out 0.25s;
+    cursor: pointer;
+}
+.container img:hover{
+    width: 100%;
+}
